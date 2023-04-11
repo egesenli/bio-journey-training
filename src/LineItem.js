@@ -1,6 +1,6 @@
 import { FaTrashAlt } from "react-icons/fa";
 
-const LineItem = (item, handleCheck, handleDelete) => {
+const LineItem = ({ item, handleCheck, handleDelete }) => {
   return (
     <li className="item">
       <input
@@ -23,5 +23,6 @@ const LineItem = (item, handleCheck, handleDelete) => {
     </li>
   );
 };
+
 
 export default LineItem;
